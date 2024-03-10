@@ -4687,3 +4687,16 @@ input, select, textarea {
 		}
 
 	}
+	.portfolio-image {
+		width: 300px; /* Adjust width as per your preference */
+		height: auto;
+		margin: 0 auto; /* Centers the image horizontally */
+	}
+
+	/* Style the image to make it rounded */
+	.portfolio-image img {
+		border-radius: 50%; /* Makes the image circular */
+		display: block;
+		width: 100%; /* Ensures the image fills the container */
+		height: auto; /* Maintains aspect ratio */
+	}
